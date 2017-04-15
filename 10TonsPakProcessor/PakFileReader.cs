@@ -62,12 +62,11 @@ namespace TenTonsPakProcessor {
             List<byte> stringData = new List<byte>(16);
             do {
                 int currentByte = stream.ReadByte();
-                if (currentByte == -1) {
+                if (currentByte == -1)
                     return null;
-                }
-                if (currentByte == 0) {
+
+                if (currentByte == 0)
                     break;
-                }
 
                 stringData.Add((byte) currentByte);
             } while (true);
