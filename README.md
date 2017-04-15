@@ -1,5 +1,5 @@
 # 10TonsPakProcessor
-Packer/unpacker for .pak file format as used in games by 10tons Ltd (Crimsoland 2014, Neon Chrome, Time Recoil, perhaps others).
+Packer/unpacker for .pak file format as used in games by 10tons Ltd (Crimsonland 2014, Neon Chrome, Time Recoil, perhaps others).
 
 # Usage
 To unpack a .pak file:
