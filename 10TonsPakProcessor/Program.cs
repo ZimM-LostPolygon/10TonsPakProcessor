@@ -17,7 +17,7 @@ namespace TenTonsPakProcessor {
                 if (action == "-pack") {
                     PackPak(args[1], args[2]);
                 } else if (action == "-unpack") {
-                    UnpackPak(action);
+                    UnpackPak(args[1]);
                 } else {
                     ShowUsageHelp();
                 }
